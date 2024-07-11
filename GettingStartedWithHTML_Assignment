@@ -1,0 +1,74 @@
+Question 1:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Structure and Content</title>
+</head>
+<body>
+    <h1>HTML defines the content and structure of your website</h1>
+</body>
+</html>
+
+
+
+Question 2:
+Comments in HTML are used to annotate code for documentation, collaboration, and debugging purposes. They start with <!-- and end with -->. Example:
+<!-- This is a comment in HTML -->
+<h1>Welcome to My Website</h1>
+<!--
+<p>This paragraph is commented out for testing purposes.</p>
+-->
+
+
+
+Question 3:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>    
+    <p>This is a paragraph of text. Here you can explain something about your website or provide some introductory information.</p>    
+    <hr> 
+    <p>This paragraph is below the horizontal line.</p>    
+    <br>   
+    <p>This paragraph is after a line break.</p>
+</body>
+</html>
+
+
+
+Question 4:
+In HTML, tags and elements are fundamental components that define the structure and content of web pages. Tags serve as the building blocks of HTML markup, encapsulating elements and specifying their type and
+behavior. They are denoted by angle brackets (`<` and `>`), with the tag name indicating the type of element, such as `<h1>` for a top-level heading or `<p>` for a paragraph. Elements, on the other hand, 
+comprise tags along with their associated content or nested elements. For example, `<h1>Welcome to my Website</h1>` forms an `h1` element where "Welcome to my Website" is the content displayed as a main 
+heading. Together, tags and elements establish the structure, semantics, and visual presentation of web pages, enabling browsers and other software to render and interpret content correctly based on defined 
+HTML specifications. They are essential for organizing and conveying information effectively across various devices and platforms on the web.
+
+
+
+Question 5:
+The DOCTYPE declaration in HTML, short for Document Type Declaration, is an essential directive placed at the beginning of an HTML document. Its primary role is to inform web browsers about the version of 
+HTML or XHTML the document is written in, ensuring consistency in rendering across different platforms and browsers. By specifying the correct DOCTYPE, developers establish a clear set of rules and standards 
+that browsers should adhere to when interpreting the document's elements and attributes. This declaration also enables validation tools to verify the document's syntax against the specified HTML or XHTML 
+standard, helping developers identify and fix errors early in the development process. In modern HTML5 documents, the DOCTYPE declaration is simplified to `<!DOCTYPE html>`, reflecting the streamlined and 
+standardized approach of HTML5. Overall, while often overlooked, the DOCTYPE declaration plays a critical role in ensuring web pages are displayed correctly and adhere to industry standards, enhancing 
+compatibility, accessibility, and the overall user experience on the web.
